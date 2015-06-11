@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Presença OK-Br</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+</head>
+<body>
+    <h1>Presença OKBR</h1>
+    <p>Gráficos sobre as presenças nas reuniões da OK-Br. Por falta de dados não foram consideradas as "reuniões de comunidade".</p>
+    <p>As presenças foram manualmente copiadas das <a href="http://wiki.okfn.org/Category:Reuni%C3%B5es_OKBR">atas</a> e sistematizados nessa <a href="https://ethercalc.org/presenca-conselho-okbr">planilha</a>. Os gráficos nessa página são gerados automaticamente a partir do conteúdo da planilha. Logo, se você modificá-la e recarregar essa página, eles devem se atualizar de acordo. Edite com responsabilidade. ;-)</p>
+    <div id="mytable" style="display:none"></div>
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="containerT" style="min-width: 310px; height: 800px; margin: 0 auto"></div>
+    <div id="containerY" style="min-width: 310px; height: 800px; margin: 0 auto"></div>
+    <script src="code.js"></script>
+</body>
